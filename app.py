@@ -13,7 +13,7 @@ DB_NAME = os.environ.get("DB_NAME")
 
 client = MongoClient(MONGODB_URI)
 
-db = client(DB_NAME)
+db = client.dbsparta
 
 app =Flask(__name__)
 
